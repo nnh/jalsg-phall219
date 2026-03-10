@@ -1,0 +1,14 @@
+/compare
+/input
+/log
+/output
+/save
+/TMF
+*.xlsx
+*.xsl
+*.xml
+*.csv
+*.dat
+*.png
+/program/Archives
+program/work.sas
