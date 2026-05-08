@@ -1,14 +1,26 @@
+# OS / IDE
+.DS_Store
+.claude/
+.rtk/
+
+# Project directories
 /compare
 /input
 /log
 /output
 /save
 /TMF
+/program/Archives
+
+# Specific files
+program/work.sas
+
+# Extensions
 *.xlsx
 *.xsl
 *.xml
 *.csv
 *.dat
 *.png
-/program/Archives
-program/work.sas
+*.log
+*.lst
