@@ -1,0 +1,21 @@
+                                                   The FREQ Procedure
+
+                                    Cumulative    Cumulative
+mhterm    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------
+10300             2     25.00            2        25.00
+10370             1     12.50            3        37.50
+10390             1     12.50            4        50.00
+10440             2     25.00            6        75.00
+11670             1     12.50            7        87.50
+99999             1     12.50            8       100.00
+                                                   The FREQ Procedure
+
+mhterm_dname                                 Frequency    Percent
+------------------------------------------------------------------
+99999                                                1     12.50
+AML with BCR-ABL1                                    1     12.50
+AML with maturation                                  2     25.00
+AML with mutated NPM1                                1     12.50
+AML with myelodysplasia-related changes              1     12.50
+AML with t(8;21)(q22;q22.1);RUNX1-RUNX1T1            2     25.00

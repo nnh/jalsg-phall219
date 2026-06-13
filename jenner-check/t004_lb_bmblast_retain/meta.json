@@ -1,0 +1,8 @@
+{
+  "bundle": "t004_lb_bmblast_retain",
+  "source_file": "program/JALSG-PhALL219_CSVtoSASDS.sas",
+  "source_blob_sha": "dc1d1a2a7689f396e2f09e09bac8208c885db471",
+  "source_commit": "a0ef5a3f7f0e8d5b3e5341f674920712c7f6e807",
+  "tier": "real_data",
+  "notes": "Upstream tmp1e_bm step (lines 443-514): collapse repeated-measures LB bone-marrow blast records (LBTESTCD=MYBLALE) into one wide row per subject using RETAIN + FIRST./LAST.USUBJID (CALL MISSING reset) and the LBSPID x LBLNKGRP IF/ELSE visit routing, with INPUT(lbdtc,yymmdd10.) date parsing. Logic and Japanese labels verbatim; data source swapped from input/rawdata/LB.csv to a bundled 7-row mock LB (datalines) across induction/consolidation/relapse visits."
+}

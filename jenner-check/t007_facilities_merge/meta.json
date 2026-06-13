@@ -1,0 +1,8 @@
+{
+  "bundle": "t007_facilities_merge",
+  "source_file": "program/JALSG-PhALL219_CSVtoSASDS.sas",
+  "source_blob_sha": "dc1d1a2a7689f396e2f09e09bac8208c885db471",
+  "source_commit": "a0ef5a3f7f0e8d5b3e5341f674920712c7f6e807",
+  "tier": "real_data",
+  "notes": "Upstream tmp1a/tmp1b/tmp1c sequence (lines 85-121): trim demographics, derive the facility lookup by renaming the imported var1/var2 columns, PROC SORT both BY siteid, and join site name with MERGE / IN= keeping demographics rows only. Rename, sort and IN= subsetting verbatim; data sources swapped from input/rawdata/DM.csv and input/ext/facilities.csv to bundled 4-row mocks (datalines)."
+}

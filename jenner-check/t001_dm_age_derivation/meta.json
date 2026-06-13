@@ -1,0 +1,8 @@
+{
+  "bundle": "t001_dm_age_derivation",
+  "source_file": "program/JALSG-PhALL219_CSVtoSASDS.sas",
+  "source_blob_sha": "dc1d1a2a7689f396e2f09e09bac8208c885db471",
+  "source_commit": "a0ef5a3f7f0e8d5b3e5341f674920712c7f6e807",
+  "tier": "real_data",
+  "notes": "Upstream tmp1a step (lines 85-101): SDTM DM -> demographics with INPUT(yymmdd10.) date parsing, YRDIF(...,'AGE') age-at-consent, FORMAT/LABEL. Logic verbatim; data source swapped from PROC IMPORT of input/rawdata/DM.csv to a bundled 8-row mock DM (datalines) with the same columns the step reads. PROC PRINT added to display the derived dataset."
+}

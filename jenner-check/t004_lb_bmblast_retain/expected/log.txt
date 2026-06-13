@@ -1,0 +1,30 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA LB
+
+NOTE: Processing inline DATALINES (7 lines)
+
+NOTE: Read 7 rows from DATALINES.
+NOTE: Wrote LB (7 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=lb
+
+NOTE: Unlicensed mode - input limited to 100 observations.
+NOTE: Read 7 rows from lb.
+NOTE: Wrote lb (7 rows, 7 columns).
+NOTE: PROC SORT statement used.
+NOTE: DATA tmp1e_bm
+
+
+NOTE: Read 7 rows from lb.
+NOTE: Wrote tmp1e_bm (2 rows, 19 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=tmp1e_bm
+
+NOTE: PROC PRINT completed: 2 observations printed, 8 variables

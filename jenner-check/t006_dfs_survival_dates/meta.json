@@ -1,0 +1,8 @@
+{
+  "bundle": "t006_dfs_survival_dates",
+  "source_file": "program/JALSG-PhALL219_CSVtoSASDS.sas",
+  "source_blob_sha": "dc1d1a2a7689f396e2f09e09bac8208c885db471",
+  "source_commit": "a0ef5a3f7f0e8d5b3e5341f674920712c7f6e807",
+  "tier": "real_data",
+  "notes": "Upstream tmp11_dfs step (lines 2318-2347): disease-free-survival derivation restricted to first-remission subjects (cr1yn='CR'); DFS days/months/years from relapse vs last-contact dates, event flag, CALL MISSING for non-positive intervals. Algebra, WHERE and Japanese labels verbatim; tmp11 replaced by a 5-row mock (datalines) carrying only the fields the step reads, dates built with INPUT(yymmdd10.)."
+}

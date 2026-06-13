@@ -1,0 +1,8 @@
+
+  Obs         usubjid                医療機関コード                  医療機関名  sex  age
+-----  --------------  ---------------------  ---------------------  ---  ---
+    1  JALSG-001-0001  001                    Nagoya Medical Center  M     63
+    2  JALSG-002-0001  002                    Central Hospital       M     59
+    3  JALSG-002-0002  002                    Central Hospital       F     66
+    4  JALSG-003-0001  003                    East Medical Center    F     80
+

@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-06-13T16:44:41Z",
+  "_captured_run_id": "r_019ec1cfb2bd7a539d60df59806cebf1",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote MH_converted (8 rows, 6 columns).",
+    "NOTE: PROC FREQ statement used.",
+    "NOTE: Read 8 rows from MH."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
