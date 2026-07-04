@@ -1,6 +1,7 @@
 # OS / IDE
 .DS_Store
-.claude/
+Thumbs.db
+.claude/settings.local.json
 .rtk/
 
 # Project directories
@@ -24,3 +25,9 @@ program/work.sas
 *.png
 *.log
 *.lst
+*.sas7bdat
+*.sas7bcat
+*.xpt
+*.sav
+*.dta
+*.zip
