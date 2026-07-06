@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-06-13T16:25:09Z",
+  "_captured_run_id": "r_019ec1cc99037270aa6e0a7d68aa0f57",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote tmp1a (8 rows, 9 columns).",
+    "NOTE: PROC PRINT completed: 8 observations printed, 7 variables",
+    "NOTE: Read 8 rows from DM."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-06-13T16:44:41Z",
+  "_captured_run_id": "r_019ec1cfcaeb70d3ad087e4b305155ca",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote tmp11_dfs (4 rows, 5 columns).",
+    "NOTE: PROC PRINT completed: 4 observations printed, 5 variables",
+    "NOTE: Read 5 rows from tmp11."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

@@ -1,0 +1,17 @@
+
+  Obs   CODE                                      NAME_EN
+-----  -----  -------------------------------------------
+    1  10010  Chronic myeloid leukemia (CML), BCR-ABL1(+)
+    2  10300  AML with t(8;21)(q22;q22.1);RUNX1-RUNX1T1
+    3  10310  AML with inv(16) or t(16;16);CBFB-MYH11
+    4  10350  AML with inv(3) or t(3;3); GATA2, MECOM
+    5  10370  AML with mutated NPM1
+    6  10390  AML with myelodysplasia-related changes
+    7  10400  Therapy-related myeloid neoplasms
+    8  10420  AML with minimal differentiation
+    9  10430  AML without maturation
+   10  10440  AML with maturation
+   11  10450  Acute myelomonocytic leukemia
+   12  10460  Acute monoblastic/monocytic leukemia
+   13  11670  AML with BCR-ABL1
+

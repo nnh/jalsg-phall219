@@ -1,0 +1,8 @@
+{
+  "bundle": "t005_diseases_print_where_in",
+  "source_file": "program/JALSG-PhALL219_CSVtoSASDS.sas",
+  "source_blob_sha": "dc1d1a2a7689f396e2f09e09bac8208c885db471",
+  "source_commit": "a0ef5a3f7f0e8d5b3e5341f674920712c7f6e807",
+  "tier": "real_data",
+  "notes": "Upstream diseases_fixed + PROC PRINT (lines 150-170): widen name_en, then PRINT the in-scope classification codes via the multi-line WHERE code IN(...) list. Code set, LENGTH and PRINT verbatim; data source swapped from input/ext/diseases.csv to a bundled 14-row mock diseases lookup (datalines) with codes inside and outside the WHERE set."
+}

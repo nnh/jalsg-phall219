@@ -1,0 +1,27 @@
+Jenner 0.1.0 (Unlicensed - limited to 100 observations)
+Get a license at https://jenneranalytics.com/license
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA MH
+
+NOTE: Processing inline DATALINES (8 lines)
+
+NOTE: Read 8 rows from DATALINES.
+NOTE: Wrote MH (8 rows, 5 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_mhterm.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: DATA MH_converted
+
+
+NOTE: Read 8 rows from MH.
+NOTE: Wrote MH_converted (8 rows, 6 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_mhterm_dname.spec.json
+NOTE: PROC FREQ statement used.
