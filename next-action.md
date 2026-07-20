@@ -9,7 +9,11 @@
 ## 初回セットアップ
 
 - [x] CLAUDE.md・overview.md・issues.md・next-action.md を作成する
-- [ ] 齋藤（`tosh13`）を読み取り権限のコラボレーターとして追加する
+- [ ] 齋藤（`tosh13`）を読み取り権限のコラボレーターとして追加する：**要確認**。2026-07-21時点でtosh13（Toshiki Saito）からmasterへの直接コミット（`docs/analysis-pipeline-plan.md`・`docs/cdisc-ars.md`追加）を確認しており、既に読み取り以上の権限を持っている可能性がある。
+
+## Toshikiさんとの打合せ事項（次回）
+
+- [ ] 2026-07-21にtosh13さんが追加した`docs/analysis-pipeline-plan.md`・`docs/cdisc-ars.md`（汎用の解析パイプライン計画・CDISC ARS調査メモ）について、内容がPhALL219固有でなく汎用的に見えるため、このリポジトリに置く意図か確認する（CLAUDE.mdは本リポジトリを「試験JALSG-PhALL219専用」と位置づけている）。
 
 ## SAP OPENコメント・修正必須リストの論点整理
 
