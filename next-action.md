@@ -13,7 +13,7 @@
 
 ## Toshikiさんとの打合せ事項（次回）
 
-- [ ] 2026-07-21にtosh13さんが追加した`docs/analysis-pipeline-plan.md`・`docs/cdisc-ars.md`（汎用の解析パイプライン計画・CDISC ARS調査メモ）について、内容がPhALL219固有でなく汎用的に見えるため、このリポジトリに置く意図か確認する（CLAUDE.mdは本リポジトリを「試験JALSG-PhALL219専用」と位置づけている）。
+- [x] 2026-07-21にtosh13さんが追加した`docs/analysis-pipeline-plan.md`・`docs/cdisc-ars.md`（汎用の解析パイプライン計画・CDISC ARS調査メモ）について、内容がPhALL219固有でなく汎用的に見えるため、このリポジトリに置く意図か確認する件：**解決**。試験横断の汎用メソッド（SAS/R二重コーディング＋CDISC ARSベースの内部検証・R納品）のため、2026-07-21付でakiko-officeリポジトリ（個人の方法論層、`docs/methods/`）へ移設済み。本リポジトリにはPhALL219固有の記述（issues.md・sap-open-issues.md等）のみ残す。
 
 ## SAP OPENコメント・修正必須リストの論点整理
 

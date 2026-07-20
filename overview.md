@@ -29,3 +29,4 @@ SDTM/ADS/図表・QCプログラムは未着手（Box側は雛形フォルダの
 
 - 既知の問題：[issues.md](issues.md)
 - 次アクション：[next-action.md](next-action.md)
+- 試験横断の汎用解析メソッド（SAS/R二重コーディング＋CDISC ARS）は [akiko-office](https://github.com/akikomsaito/akiko-office/tree/main/docs/methods) を参照
