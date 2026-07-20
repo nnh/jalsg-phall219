@@ -2,15 +2,15 @@
 
 随時更新（2026-07-20 時点）
 
-次アクションは [next-action.md](next-action.md) を参照。詳細根拠は [docs/state-survey.md](docs/state-survey.md)。
+次アクションは [next-action.md](next-action.md) を参照。SAP論点の詳細は [docs/sap-open-issues.md](docs/sap-open-issues.md)・[docs/sap-edits-todo.md](docs/sap-edits-todo.md)。詳細根拠は [docs/state-survey.md](docs/state-survey.md)。
 
 ---
 
 ## SAP・データロック関連
 
-1. **SAP未固定＋OPENコメント4件**：実体のGoogle Doc「JALSG-PhALL219 SAP」は最終更新2026-06-23のまま。2026-07-12付「SAP固定前・修正必須リスト」（`TMF/spec/sap_fix_before_lock_20260712.md`）が必須3件（§5.2.5治療/予防区分の矛盾、MR判定のオーツカ小数対応、早期死亡の3相別起算日）・PRT齟齬2件（RFS対象集団、移植後28日AE）・データ制約1件（死因内訳）を指摘済みだが、Google Doc更新日時が動いておらず未反映。
-2. **ローカルSAPスナップショットが1ヶ月以上陳腐化**：`TMF/sap/JALSG-PhALL219 SAP 20260510.md` はGoogle Doc側の6月15日「第1版」以降の改訂（〜6/23）を反映していない。今後SAPを参照する際はGoogle Doc（ID `1T6UIqIU0Agspl7_mo7V1WU-HxIQQgBJa9VpRK28yfNQ`）を都度確認する必要がある。
-3. **想定スケジュールからの遅延の可能性**：Google Doc「JALSG-PhALL219 ToDo」（2026-06-22更新）に記載の見込みでは、5月下旬頃にSAP固定・データ固定、統計解析責任者による最終解析開始（想定2ヶ月）を経て7-8月頃完了、というスケジュール感が示されている（テキスト抽出に文字化けがあり要目視確認）。現時点(07-20)でSAP未固定・データロック未実施であり、遅延の有無をPI/データセンターに確認する必要がある。
+1. **SAP未固定**：Gdrive上のSAP最新版とPI・齋藤先生間のメールやり取りを突合した結果、OPENコメント4件のうち2件（RFS起算日・対象集団、移植後TKI治療/予防区分）は結論が出ている。ただし**RFS対象集団については現行SAP本文の文言がメール結論と逆（広義⇔狭義）になっており、要修正**。fix-list必須3件のうち1件（§5.2.5）はこれと同一論点で解決、残り2件（MR判定オーツカ小数対応、早期死亡3相別起算日）とPRT齟齬2件のうち1件（移植後28日AE。RFS対象集団はSAP文言修正のみ）・データ制約1件（死因内訳）はメール上に明示合意記録がなく未解決。詳細は[docs/sap-open-issues.md](docs/sap-open-issues.md)。
+2. ~~ローカルSAPスナップショットが陳腐化~~：解消。Gdriveに直接接続してSAP/PRT最新版を都度取得できることを確認したため、`TMF/`配下のローカル`.md`スナップショット運用は不要（今後Gdrive直接参照に一本化）。
+3. **想定スケジュールからの遅延の可能性**：Google Doc「JALSG-PhALL219 ToDo」に記載のCRBスケジュール（変更審査2026-09-17〈8/20締切〉、終了報告2026-10-15〈9/17締切〉）に向けて、SAP最終固定・データ固定が必要。現時点(07-20)でSAP未固定・データロック未実施であり、遅延の有無をPI/データセンターに確認する必要がある。
 4. **Box側データは2026-05-05以降更新なし**：input/rawdata・input/ext・defineXMLとも2026-05-05〜05-06納品のまま。2.5ヶ月以上、新規データ・照会対応の反映が無い。
 
 ## プログラム関連
@@ -20,5 +20,5 @@
 
 ## データ保管・同期関連
 
-7. **`input/ext/saihi.csv`（FAS/SAF/PPS解析対象集団フラグ）がBox未反映**：ローカルにのみ存在し、Box `input/ext/` には無い（facilities.csv・diseases.csv・ABL1変異解析2件のみ）。sap_fix_before_lock D-3指摘の通り、DS上のPROTOCOL DEVIATION4件・SCREEN FAILURE1件との整合を見た再導出が必要で、この作業結果はまだBoxへ保存されていない。
-8. **`~/Downloads` に生データ・SAP元エクスポートの重複が残置**：`PhALL219_cdisc_260505_1617`（フォルダ・zip）、defineXML、SAP系.mdファイル一式。いずれもBox/リポジトリTMF内の既存コピーと日時・サイズが一致（新しいデータではない）が、生データがBox外に置かれた状態であり、整理（削除、または既にBoxに存在することの確認記録）が望ましい。
+7. **`input/ext/saihi.csv`（FAS/SAF/PPS解析対象集団フラグ）がBox未反映**：2026-07-20時点で再確認したところ、Box `input/ext/` には依然として無い（facilities.csv・diseases.csv・ABL1変異解析2件のみ）。DS上のPROTOCOL DEVIATION/SCREEN FAILUREとの整合を見た再導出が必要で、この作業結果はまだBoxへ保存されていない。
+8. ~~`~/Downloads` に生データ・SAP元エクスポートの重複が残置~~：2026-07-20時点で確認したところ解消済み（PhALL219関連の重複ファイルはDownloadsに見当たらず、GML219/GML226関連の無関係ファイルのみ残存）。
