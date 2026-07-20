@@ -8,9 +8,9 @@
 
 ## 現在の状況
 
-**SAP固定完了（2026-07-20、第1〜5章）**。実体はGoogle Docs「JALSG-PhALL219 SAP」。PI・齋藤先生間のメールやり取りとSAP/PRT最新版（Gdrive直接取得）を突合して各論点を整理し（[docs/sap-open-issues.md](docs/sap-open-issues.md)）、`docs/sap-edits-todo.md`の修正案をもとにSAP本体を編集・固定。OPENコメント4件は全て解決、fix-list必須3件・PRT齟齬2件・データ制約1件も全て反映または対応不要と確認済み。SAP関連の対応は完了。
+**SAP最終固定完了（2026-07-21、第1〜5章）**。実体はGoogle Docs「JALSG-PhALL219 SAP」。PI・齋藤先生間のメールやり取りとSAP/PRT最新版（Gdrive直接取得）を突合して各論点を整理し（[docs/sap-open-issues.md](docs/sap-open-issues.md)）、`docs/sap-edits-todo.md`の修正案をもとにSAP本体を編集。最後に§4.4.11（BCR-ABLサブタイプ別サブグループ解析）の文言を微修正して固定。OPENコメント4件は全て解決、fix-list必須3件・PRT齟齬2件・データ制約1件も全て反映または対応不要と確認済み。SAP関連の対応は完了。
 
-データロックは未実施。Box側の生データは2026-05-05納品バッチ以降、更新なし（2.5ヶ月以上新規データ・照会対応の反映なし）。
+**データロックは翌日（次回作業日）実施予定**。Box側の生データは2026-05-05納品バッチ以降、更新なし（実施時に新規データの有無を再確認）。
 
 `program/JALSG-PhALL219_CSVtoSASDS.sas`（マスタデータセット作成プログラム、2474行）は2026-03-10に一括追加後、無変更。中身はJALSG-GML219用プログラムをほぼそのまま流用しており（ファイルヘッダ名・出力データセット名gml219・出力先パスがGML219のまま）、PhALL219向けの改修が未着手。読み込み対象20ドメイン中4つ（EG, PE, RELREC, SC）は現行input/rawdataに存在せず、このままでは最後まで実行できない。
 

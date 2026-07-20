@@ -21,13 +21,14 @@
 - [x] PRT齟齬2件のうち残り1件（移植後28日AE集計）：SAP本体に反映済みを確認
 - [x] データ制約1件（死因内訳）：明子さん確認済み。`xx(%)`は実データ未集計の想定通りのプレースホルダーで対応不要（[docs/sap-open-issues.md](docs/sap-open-issues.md)参照）
 
-## SAP固定（2026-07-20完了）
+## SAP固定（2026-07-21 完了・確定版）
 
-- [x] `docs/sap-edits-todo.md` の修正案をもとにSAP本体（Google Doc `1T6UIqIU0Agspl7_mo7V1WU-HxIQQgBJa9VpRK28yfNQ`、第1〜5章）を編集・**固定**。OPENコメント4件→0件（解決操作済み）。SAP本体を再取得し、全項目の反映・解決を確認済み。**SAP関連の対応は完了。**
+- [x] `docs/sap-edits-todo.md` の修正案をもとにSAP本体（Google Doc `1T6UIqIU0Agspl7_mo7V1WU-HxIQQgBJa9VpRK28yfNQ`、第1〜5章）を編集・**固定**。OPENコメント4件→0件（解決操作済み）。
+- [x] 明子さんが§4.4.11（BCR-ABLサブタイプ別サブグループ解析、探索的）の文言を微修正（post-IC→「強化地固め療法後」、neutrophil→「末梢血好中球」等の明確化。解析内容自体の変更なし）したうえで**SAP最終固定**。再取得して他の反映済み項目に変更が無いことも確認済み。**SAP関連の対応は完了。**
 
 ## 直近（着手可能な順）
 
-- [ ] **データロック**を実施する（Box側は2026-05-05納品バッチ以降更新なし。固定前に新規データの有無を再確認）
+- [ ] **データロック**：明子さんが翌日（次回作業日）実施予定。実施後、Box側の新規データ反映有無を確認する
 - [ ] `input/ext/saihi.csv`（FAS/SAF/PPSフラグ）のBox退避：**本セッションで確認したところ未完了**（Box `input/ext/`は`facilities.csv`・`diseases.csv`・ABL1変異解析2件のみで`saihi.csv`は無い）。DS上のPROTOCOL DEVIATION/SCREEN FAILUREとの整合を見て再導出のうえBoxに保存する
 - [ ] **`JALSG-PhALL219_CSVtoSASDS.sas` をPhALL219向けに改修する**（GML219由来のファイル名・出力データセット名gml219・出力パスの置換、EG/PE/RELREC/SCドメイン読み込みの要否確認）
 - [ ] SDTM/ADS作成・STAT図表プログラム・QCプログラムに着手する（Box側は雛形フォルダのみで中身0件）
