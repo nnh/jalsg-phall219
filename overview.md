@@ -8,7 +8,7 @@
 
 ## 現在の状況
 
-SAP未確定。実体はGoogle Docs「JALSG-PhALL219 SAP」（OPENコメント4件）。2026-07-20時点でPI・齋藤先生間のメールやり取りとSAP/PRT最新版（Gdrive直接取得）を突合し、各論点の結論を整理した（[docs/sap-open-issues.md](docs/sap-open-issues.md)）。OPENコメントのうち2件（RFS起算日・対象集団、移植後TKI治療/予防区分）は結論が出ている。RFS対象集団（#49の扱い）は2026-07-20の症例検討会で最終決定し、現行SAP本文の広義解釈（#49を含める）を採用のうえ決定理由（CRi文献動向）を注記追加することとした（[docs/sap-edits-todo.md](docs/sap-edits-todo.md)）。fix-list必須3件のうち2件（MR判定オーツカ小数対応、早期死亡3相別起算日）とPRT齟齬1件（移植後28日AE）・データ制約1件（死因内訳）はメール上に明示合意記録がなくPI確認待ち。
+**SAP固定完了（2026-07-20）**。実体はGoogle Docs「JALSG-PhALL219 SAP」。PI・齋藤先生間のメールやり取りとSAP/PRT最新版（Gdrive直接取得）を突合して各論点を整理し（[docs/sap-open-issues.md](docs/sap-open-issues.md)）、`docs/sap-edits-todo.md`の修正案をもとにSAP本体を編集・固定。OPENコメント4件は全て解決、fix-list必須3件・PRT齟齬2件・データ制約1件も反映を確認済み。唯一の残課題は、RFS対象集団（#49を含める最終決定、CRi文献動向による）の決定理由がSAP本文に注記されていない点（アメンドメントするか本リポジトリの記録を正式決定記録とするか要判断）。
 
 データロックは未実施。Box側の生データは2026-05-05納品バッチ以降、更新なし（2.5ヶ月以上新規データ・照会対応の反映なし）。
 
